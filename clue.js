@@ -73,13 +73,3 @@ function revealMystery() {
 }
 
 revealMystery();
-
-//function getRandomArbitrary(min, max) {
-    //return Math.random() * (max - min) + min;
-//}
-
-//console.log(Math.round(getRandomArbitrary(0,9)));
-
-//function getSuspect() {
-  //  console.log(clueGame.suspects.Math.floor());
-//}
