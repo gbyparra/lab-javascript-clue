@@ -55,15 +55,15 @@ var clueGame = {
 
 // Iteration 2
 function getSuspect() {
-  return clueGame.suspects[Math.floor(Math.random() * (5 - 0))];
+  return clueGame.suspects[Math.round(Math.random() * 5)];
 }
 
 function getWeapon() {
-  return clueGame.weapons[Math.floor(Math.random() * (8 - 0))];
+  return clueGame.weapons[Math.round(Math.random() * 8)];
 }
 
 function getHouseRoom() {
-  return clueGame.houseRooms[Math.floor(Math.random() * (14 - 0))];
+  return clueGame.houseRooms[Math.round(Math.random() * 14)];
 }
 
 function revealMystery() {
