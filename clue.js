@@ -69,7 +69,6 @@ function getHouseRoom() {
 function revealMystery() {
   var caseFileConfidential = [getSuspect(), getWeapon(), getHouseRoom()];
   console.log(caseFileConfidential);
-
 }
 
 revealMystery();
